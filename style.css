@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?famyly=Popins:wght@400;600&display=swap');
+
+:root{
+    --cor-fundo: white;
+    --cor-container:white;
+    --cor-primaria:blue;
+    --cor-texto-principal:brown;
+    --cor-texto-secundario:;
+    --cor-bordas:white;
+    --fonte-principal: 'popis',sans-serif;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: brown;
+    font-family: var(--fonte-principal) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#backgroundcanvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: ;
+}
